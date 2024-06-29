@@ -29,7 +29,10 @@ const Photo = () => {
             priority
             quality={100}
             fill
-            className="object-contain"
+            className="object-contain 
+            max-h-[298px] max-w-[298px] 
+            xl:max-h-[442px] xl:max-w-[498px] 
+            xl:ml-20 ml-8"
           />
         </motion.div>
 

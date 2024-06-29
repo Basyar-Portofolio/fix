@@ -3,10 +3,8 @@ import {
     html,
     css,
     reactjs,
-    tailwind,
     teamwork,
     salary,
-    coding,
     zahirah,
     koperasisyariah,
     muamalat,
@@ -64,10 +62,6 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
   ];
 
