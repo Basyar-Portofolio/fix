@@ -48,9 +48,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-3.5 text-secondary text-[17px] max-w-2xl leading-[30px] text-center sm:text-left'
       >
-        Saya memiliki Skill di bidang HR Khususnya Payroll dan User Experience, 
-        memiliki pengalaman lebih dari 4 tahun di bidang HR.
-        Saya sangat senang mempelajari apapun yang positif tentang hal baru
+        Saya S1 Sarjana Ekonomi dan saat ini berusia 27 tahun.
+        <br/>Memiliki 4 tahun pengalaman bekerja di bidang HR, Khususnya Payroll.
+        <br/>Saya sangat senang mempelajari apapun yang positif tentang hal baru
         dan selalu berusaha mengupgrade kemampuan yang saya miliki saat ini.
         <br/>Let's work together to bring your ideas to life !!!
       </motion.p>

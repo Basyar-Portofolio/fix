@@ -1,7 +1,5 @@
 import {
     javascript,
-    html,
-    css,
     reactjs,
     teamwork,
     salary,
@@ -88,7 +86,7 @@ import {
       date: "Mei 2018 - Juni 2018",
       points: [
         "Mempelajari praktek Koperasi Syariah.",
-        "Front Office - Menyambut dan berinteraksi dengan customers.",
+        "Berinteraksi dengan customers.",
         "Mempelajari proses alur zakat dan dana sosial di Koperasi Syariah Manfaat.",
         "Membuat pembukuan sederhana.",
 
@@ -115,7 +113,7 @@ import {
       iconBg: "#E6DEDD",
       date: "September 2019 - Present",
       points: [
-        "Menyiapkan Berkas dan Dokumentasi Apapun yang Berhubungan dengan Payroll.",
+        "Manajemen Berkas dan Dokumentasi Apapun yang Berhubungan dengan Payroll.",
         "Membuat Laporan Gaji Bulanan Karyawan.",
         "Melakukan Update Data Karyawan, Masuk dan Keluar.",
         "Melakukan Perhitungan BPJS Kesehatan dan BPJS TK.",
@@ -174,7 +172,7 @@ import {
     {
       name: "Website Portofolio ",
       description:
-        "3D Website Portofolio pribadi saya, Website ini saya khususnya untuk diri saya sendiri sebagai dokumentasi Pengalaman karir saya .",
+        "3D Website Portofolio pribadi saya, Website ini saya khususkan untuk diri saya sendiri sebagai dokumentasi Pengalaman karir saya .",
       tags: [
         {
           name: "Next.js",

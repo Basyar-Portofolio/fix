@@ -5,40 +5,18 @@ import photo from "../../assets/photo.png";
 
 const Photo = () => {
   return (
-    <div className="w-full h-full relative flex justify-center">
+    <div className="w-full h-full relative flex justify-center items-center">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
           transition: { delay: 1, duration: 0.4, ease: "easeIn" },
         }}
+        className="relative flex justify-center items-center"
       >
-        {/*IMAGE*/}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{
-            opacity: 1,
-            transition: { delay: 1.4, duration: 0.4, ease: "easeInOut" },
-          }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] 
-          mix-blend-lighten absolute"
-        >
-          <img
-            src={photo}
-            alt="photo"
-            priority
-            quality={100}
-            fill
-            className="object-contain 
-            max-h-[298px] max-w-[298px] 
-            xl:max-h-[442px] xl:max-w-[498px] 
-            xl:ml-20 ml-8"
-          />
-        </motion.div>
-
         {/*CIRCLE*/}
         <motion.svg
-          className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+          className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px] absolute"
           fill={"transparent"}
           viewBox={"0 0 506 506"}
           xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +32,7 @@ const Photo = () => {
             initial={{ strokeDasharray: "24 10 0 0" }}
             animate={{
               strokeDasharray: ["15 120 25 25", "16 25 95 72", "4 250 22 22"],
-              rotate: [120, 360 ],
+              rotate: [120, 360],
             }}
             transition={{
               duration: 15,
@@ -63,10 +41,27 @@ const Photo = () => {
             }}
           />
         </motion.svg>
+
+        {/*IMAGE*/}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+            transition: { delay: 1.4, duration: 0.4, ease: "easeInOut" },
+          }}
+          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] 
+          mix-blend-lighten relative flex justify-center items-center overflow-hidden rounded-full"
+        >
+          <img
+            src={photo}
+            alt="photo"
+            className="object-cover 
+            w-[410px] h-full ml-2 "
+          />
+        </motion.div>
       </motion.div>
     </div>
   );
 };
 
 export default Photo;
-

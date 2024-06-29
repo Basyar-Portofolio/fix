@@ -23,7 +23,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Basyar &nbsp;
-            <span className="sm:block hidden"> | Ganteng</span>
+            <span className="sm:block hidden"> | Portofolio</span>
           </p>
         </Link>
 
