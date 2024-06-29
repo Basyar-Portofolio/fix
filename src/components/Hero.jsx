@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    <div className=" absolute xs:bottom-10 bottom-[48px]
+    <div className=" absolute xs:bottom-10 bottom-[65px]
     w-full flex justify-center items-center">
       <a href="#about">
         <div className="w-[28px] h-[48px] rounded-3xl
