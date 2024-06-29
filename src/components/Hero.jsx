@@ -11,7 +11,7 @@ const Hero = () => {
           justify-between xl:flex-row items-center xl:items-start`}
         >
           {/*TEXT*/} 
-          <div className=" mt-10 items-center text-center xl:text-left order-2 xl:order-none mb-48">
+          <div className=" mt-6 items-center text-center xl:text-left order-2 xl:order-none mb-48">
             <h1 className={`${styles.heroHeadText} text-white`}>
               Hi, I'm <span className="text-[#6076f1]">Basyar</span>
             </h1>
@@ -27,11 +27,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    <div className=" absolute xs:bottom-10 bottom-[189px]
+    <div className=" absolute xs:bottom-10 bottom-[33px]
     w-full flex justify-center items-center">
       <a href="#about">
         <div className="w-[28px] h-[48px] rounded-3xl
-        border-4 border-tertiary flex justify-center
+        border-4 border-blue-950 flex justify-center
         items-start p-2">
           <motion.div
           animate={{

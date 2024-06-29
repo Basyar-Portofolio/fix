@@ -14,7 +14,8 @@ import {
     pphter,
     data,
     techin,
-    web3d
+    web3d,
+    tailwind
   } from "../assets";
   
   export const navLinks = [
@@ -48,12 +49,8 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
+      name: "Tailwind",
+      icon: tailwind,
     },
     {
       name: "JavaScript",
